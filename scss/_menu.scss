@@ -90,6 +90,7 @@
       width: 250px;
       height: 250px;
       background: url("../media/prof-pic.png");
+      background-position: 40% 10%;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
@@ -115,7 +116,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 500;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
